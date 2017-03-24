@@ -18,8 +18,8 @@
     * El div contenedor se identifica correctamente.
     * El título está visible por defecto.
     * El contenido está oculto por defecto.
-* Tests: 
-* Resultado: 
+* Tests: https://github.com/kfern/tests/commit/b5b2b9b7fd5cd231c5201b409d8cdd9523307295
+* Resultado: https://github.com/kfern/tests/commit/b5fec844e4604e697f50f39b51ee1b0b5fca6e82
 
 #### Versión 0.1.0
 * Objetivos:
