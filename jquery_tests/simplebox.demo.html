@@ -4,10 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>kfern.simplebox DEMO</title>
+  <script src="//code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
 </head>
 <body>
   <div id="qunit"></div>
   <div id="qunit-fixture">
+      
     <!-- Código fuente para la verificación -->
     <div class="wrapper_ab">
       <div class="wrapper_a">
@@ -18,6 +20,7 @@
           </div>
         </div>
       </div>
+        
       <div class="wrapper_b">
         <div class="simplebox">
           <h2 class="simplebox-title">Title B</h2>
@@ -27,6 +30,7 @@
         </div>
       </div>
     </div>
+    
     <div class="wrapper_incorrecto">
       <div class="simplebox">
         <h2 class="simplebox-tit1e">Title incorrecto</h2>
@@ -38,5 +42,13 @@
     
   </div>
 
+  <!-- JAVASCRIPT -->
+  <script src="kfern.api.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $( document ).ready(function() {
+        $( document ).kfern.simplebox();
+    });
+  </script>
+  
 </body>
 </html>
