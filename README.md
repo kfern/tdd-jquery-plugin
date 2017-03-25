@@ -13,7 +13,7 @@
 #### Versión 0.3.0
 * Objetivos:
   * Añadir code coverage mediante Blanket.js.
-* Resultado: https://github.com/kfern/tests/commit/
+* Resultado: https://github.com/kfern/tests/commit/493974e8328759bc0deea2570f79904a7b8b1da0
 
 #### Versión 0.2.0
 * Objetivos:
