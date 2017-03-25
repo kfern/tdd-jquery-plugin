@@ -10,6 +10,11 @@
 
 ### Plugin interactivo
 
+#### Versión 0.3.0
+* Objetivos:
+  * Añadir code coverage mediante Blanket.js.
+* Resultado: https://github.com/kfern/tests/commit/
+
 #### Versión 0.2.0
 * Objetivos:
   * Si el HTML no tiene la estructura mínima no se realiza ningún cambio.
