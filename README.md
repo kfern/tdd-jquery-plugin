@@ -10,6 +10,13 @@
 
 ### Plugin interactivo
 
+#### Versión 0.4.0
+* Objetivos:
+  * Implementar el comportamiento del componente cuando se pulsa en el título.
+    * El título ha de ser un enlace.
+    * Si un contenido está oculto, cuando se pulse en el título se ha de mostrar el contenido asociado.
+    * Si un contenido está visible, cuando se pulse en el título se ha de ocultar el contenido asociado.
+
 #### Versión 0.3.0
 * Objetivos:
   * Añadir code coverage mediante Blanket.js.
