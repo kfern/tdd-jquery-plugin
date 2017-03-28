@@ -16,7 +16,8 @@
     * El título ha de ser un enlace.
     * Si un contenido está oculto, cuando se pulse en el título se ha de mostrar el contenido asociado.
     * Si un contenido está visible, cuando se pulse en el título se ha de ocultar el contenido asociado.
-
+* Tests: https://github.com/kfern/tests/commit/7a3a8749092737d4582459599baa45761d5c5866
+* Resultado: https://github.com/kfern/tests/commit/b71d3762ede7d33df9235b6b92cb4568a48fadbf
 #### Versión 0.3.0
 * Objetivos:
   * Añadir code coverage mediante Blanket.js.
