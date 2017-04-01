@@ -9,7 +9,9 @@
 ## Tests en jquery
 
 ### Plugin interactivo
-
+#### Versión 0.5.0
+* Objetivos:
+  * Realizar los tests usando node.
 #### Versión 0.4.0
 * Objetivos:
   * Implementar el comportamiento del componente cuando se pulsa en el título.
