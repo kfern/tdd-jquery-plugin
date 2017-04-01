@@ -30,6 +30,11 @@
 	  * karma start
 	  * Abrir la url http://localhost:9876/debug.html con Chrome. Los mensajes se muestran en la consola del navegador. 
 	  * Resultado: https://github.com/kfern/tests/commit/d01ab227c567f9253d8a85f8f6e5da4cb9a060da
+    * Resolver "Uncaught ReferenceError: jQuery is not defined"
+	    * En la versión anterior la librería jquery era cargada en simplebox.tests.html. Ahora no es está cargando por defecto.
+		* La solución simple: incluir la librería dentro de la carpeta del proyecto.
+		* Resultado: https://github.com/kfern/tests/commit/a615b629d4606e2fff40ab444fb5f4e9f11952ce		
+	  
 #### Versión 0.4.0
 * Objetivos:
   * Implementar el comportamiento del componente cuando se pulsa en el título.
