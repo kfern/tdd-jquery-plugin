@@ -4,7 +4,7 @@
   "description": "Tests en Javascript",
   "main": "jquery_tests/simplebox.tests.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/karma start"
   },
   "repository": {
     "type": "git",
