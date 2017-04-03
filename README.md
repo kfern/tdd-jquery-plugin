@@ -7,7 +7,7 @@
 4. Volver al primer paso.
 
 ## Tests en jquery
-
+[![Build Status](https://travis-ci.org/kfern/tests.svg?branch=master)](https://travis-ci.org/kfern/tests)
 ### Plugin interactivo
 #### Versión 0.5.0
 * Objetivos:
