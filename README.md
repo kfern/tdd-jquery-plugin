@@ -20,7 +20,7 @@
       * npm install karma-coverage --save-dev 
       * Configurar siguiendo las instrucciones en https://github.com/karma-runner/karma-coverage
     * El resultado de este paso es tener todos los tests funcionando usando un conjunto de tecnologías basadas en nodejs.
-* Resultado: 
+* Resultado: https://github.com/kfern/tests/commit/09310e437dbf07812145c54b84862ac9ff049e6f
 #### Versión 0.4.0
 * Objetivos:
   * Implementar el comportamiento del componente cuando se pulsa en el título.
