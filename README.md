@@ -8,9 +8,13 @@
 
 ## Tests en jquery
 [![Build Status](https://travis-ci.org/kfern/tests.svg?branch=master)](https://travis-ci.org/kfern/tests)
-[![Greenkeeper badge](https://badges.greenkeeper.io/kfern/tests.svg)](https://greenkeeper.io/)
+[![codecov](https://codecov.io/gh/kfern/tests/branch/master/graph/badge.svg)](https://codecov.io/gh/kfern/tests)
 
 ### Plugin interactivo
+#### Versión 0.5.1
+* Objetivo:
+  * Integrar el informe de cobertura (Coverage) en codecov.io
+* Resultado: [![codecov](https://codecov.io/gh/kfern/tests/branch/master/graph/badge.svg)](https://codecov.io/gh/kfern/tests)
 #### Versión 0.5.0
 * Objetivos:
   * Realizar los tests usando node.
