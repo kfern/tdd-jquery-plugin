@@ -3,9 +3,7 @@
     $.fn.kfern.getVersion = function(){
         return '0.5.0';
     };
-    
     $.fn.kfern.simplebox = function( selector ){
-        var i;//Contador para que cada id sea diferente
         selector = selector || 'simplebox';
         $('div.' + selector).each(function(i){
             //Verificar que la estructura del contenido recibido contiene los mínimos necesarios
