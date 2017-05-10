@@ -11,30 +11,7 @@
 ### Plugin interactivo
 #### Versión 0.5.0
 * Objetivos:
-  * Realizar los tests usando node.
-    * Crear un archivo package.json de configuración del proyecto.
-      * npm init
-      * Resultado: https://github.com/kfern/tests/commit/9b21c7cc5fda8c25a1987b77a31babfe6b814cbf
-    * Instalar Karma de forma global para ser usado mediante la línea de comandos:
-      * npm install -g karma-cli
-    * Instalar karma en el proyecto siguiendo los pasos indicados en http://karma-runner.github.io/1.0/intro/installation.html
-      * npm install karma --save-dev
-      * npm install karma-jasmine karma-chrome-launcher jasmine-core --save-dev
-	  * Añadir una entrada en .gitignore para excluir la carpeta node_modules	  
-	  * Resultado: https://github.com/kfern/tests/commit/684167b9a484bb06961486a1540ef113bb8e6e9a
-    * Incluir el paquete qunitjs y crear un archivo de configuración para karma usando qunit como testing framework:
-      * npm install qunitjs --save-dev
-      * karma init
-	  * Resultado: https://github.com/kfern/tests/commit/5c2086f6325605469578ffaf608d67efd0d98c68
-    * Comprobar si los tests están funcionando:
-	  * karma start
-	  * Abrir la url http://localhost:9876/debug.html con Chrome. Los mensajes se muestran en la consola del navegador. 
-	  * Resultado: https://github.com/kfern/tests/commit/d01ab227c567f9253d8a85f8f6e5da4cb9a060da
-    * Resolver "Uncaught ReferenceError: jQuery is not defined"
-	    * En la versión anterior la librería jquery era cargada en simplebox.tests.html. Ahora no es está cargando por defecto.
-		* La solución simple: incluir la librería dentro de la carpeta del proyecto.
-		* Resultado: https://github.com/kfern/tests/commit/a615b629d4606e2fff40ab444fb5f4e9f11952ce		
-	  
+  * Realizar los tests usando node.	  
 #### Versión 0.4.0
 * Objetivos:
   * Implementar el comportamiento del componente cuando se pulsa en el título.
