@@ -1,0 +1,33 @@
+{
+  "name": "github.kfern.tests",
+  "version": "0.5.0",
+  "description": "Tests en Javascript",
+  "main": "jquery_tests/simplebox.tests.html",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfern/tests.git"
+  },
+  "keywords": [
+    "tests",
+    "javascript",
+    "node"
+  ],
+  "author": "https://github.com/kfern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kfern/tests/issues"
+  },
+  "homepage": "https://github.com/kfern/tests#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-qunit": "^1.2.1",
+    "qunitjs": "^2.3.0"
+  }
+}
