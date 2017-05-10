@@ -8,10 +8,19 @@
 
 ## Tests en jquery
 [![Build Status](https://travis-ci.org/kfern/tests.svg?branch=master)](https://travis-ci.org/kfern/tests)
+[![Greenkeeper badge](https://badges.greenkeeper.io/kfern/tests.svg)](https://greenkeeper.io/)
+
 ### Plugin interactivo
 #### Versión 0.5.0
 * Objetivos:
-  * Realizar los tests usando node.	  
+  * Realizar los tests usando node.
+    * Seguir los pasos indicados en https://github.com/kkroening/karma-qunit-jquery
+    * Añadir una dependencia que faltaba (https://github.com/kkroening/karma-qunit-jquery/pull/1)
+    * Añadir karma-coverage 
+      * npm install karma-coverage --save-dev 
+      * Configurar siguiendo las instrucciones en https://github.com/karma-runner/karma-coverage
+    * El resultado de este paso es tener todos los tests funcionando usando un conjunto de tecnologías basadas en nodejs.
+* Resultado: 
 #### Versión 0.4.0
 * Objetivos:
   * Implementar el comportamiento del componente cuando se pulsa en el título.

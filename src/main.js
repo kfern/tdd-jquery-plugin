@@ -1,9 +1,9 @@
 (function ( $ ) {
     $.fn.kfern = {};
     $.fn.kfern.getVersion = function(){
-        return '0.4.0';
+        return '0.5.0';
     };
-  
+    
     $.fn.kfern.simplebox = function( selector ){
         var i;//Contador para que cada id sea diferente
         selector = selector || 'simplebox';
@@ -23,6 +23,6 @@
               $(this).find('div.simplebox-content').hide();
             }
         });
-    };
+    };    
 
 }( jQuery ));
